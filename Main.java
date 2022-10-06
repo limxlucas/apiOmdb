@@ -6,7 +6,7 @@ import java.net.URL;
 public class Main {
 	public static void main(String[] args) throws Exception {
 		try {
-			URL url = new URL("https://www.omdbapi.com/?apikey=[SUA CHAVE AQUI]=Goodfellas");		
+			URL url = new URL("https://www.omdbapi.com/?t=Goodfellas&apikey=SUACHAVE");		
 			HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 			connection.setRequestMethod("GET");
 			connection.connect();

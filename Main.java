@@ -6,7 +6,7 @@ import java.net.URL;
 public class Main {
 	public static void main(String[] args) throws Exception {
 		try {
-			URL url = new URL("https://www.omdbapi.com/?t=Goodfellas&apikey=SUACHAVE");		
+			URL url = new URL("https://www.omdbapi.com/?t=Goodfellas&apikey=suaChaveAqui");		
 			HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 			connection.setRequestMethod("GET");
 			connection.connect();
@@ -14,7 +14,11 @@ public class Main {
 				throw new RuntimeException("HTTP error code : " + connection.getResponseCode());
 			}
 			BufferedReader resposta = new BufferedReader(new InputStreamReader((connection.getInputStream())));
-			System.out.println("RESPOSTA: " + resposta.readLine());
+			String linha = resposta.readLine();
+			while(linha != null) {
+				System.out.println(linha);
+				linha = resposta.readLine();
+			}
 		}
 		catch(Exception ex) {
 			throw new Exception("Erro: " + ex);

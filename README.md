@@ -8,7 +8,7 @@
  
  Parte 1 - Input do nome do filme.
  
- <img scr="https://user-images.githubusercontent.com/85112452/208961575-2b0b8ac8-8f79-4da8-8033-829c2d27a1fc.png">
+ <img scr="https://user-images.githubusercontent.com/85112452/208961575-2b0b8ac8-8f79-4da8-8033-829c2d27a1fc.png" width="400px">
  
  
  
@@ -17,6 +17,6 @@
  Parte 2 - Retorno dos dados do filme selecionado.
  
  
- <img scr="https://user-images.githubusercontent.com/85112452/208961620-d18f73fd-50bc-40b2-b4da-55bb8a7da557.png">
+ <img scr="https://user-images.githubusercontent.com/85112452/208961620-d18f73fd-50bc-40b2-b4da-55bb8a7da557.png" width="400px">
  
  :)

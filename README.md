@@ -14,6 +14,3 @@
  <div>
  <img src="https://user-images.githubusercontent.com/85112452/208961620-d18f73fd-50bc-40b2-b4da-55bb8a7da557.png" width="550px" />
  </div>
- 
- 
- :)
